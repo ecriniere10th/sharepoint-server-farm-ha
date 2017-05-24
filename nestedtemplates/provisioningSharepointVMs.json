@@ -81,7 +81,7 @@
             "publisher": "[parameters('spImagePublisher')]",
             "offer": "[parameters('spImageOffer')]",
             "sku": "[parameters('spImageSKU')]",
-            "version": "latest"
+            "version": "12.5.44499"
           },
           "osDisk": {
             "name": "osdisk",
@@ -173,7 +173,7 @@
             "publisher": "[parameters('spImagePublisher')]",
             "offer": "[parameters('spImageOffer')]",
             "sku": "[parameters('spImageSKU')]",
-            "version": "latest"
+            "version": "12.5.44499"
           },
           "osDisk": {
             "name": "osdisk",

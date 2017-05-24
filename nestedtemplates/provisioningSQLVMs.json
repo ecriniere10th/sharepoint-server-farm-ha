@@ -104,7 +104,7 @@
             "publisher": "[parameters('windowsImagePublisher')]",
             "offer": "[parameters('windowsImageOffer')]",
             "sku": "[parameters('windowsImageSKU')]",
-            "version": "latest"
+            "version": "12.5.44499"
           },
           "osDisk": {
             "name": "osdisk",
@@ -194,7 +194,7 @@
             "publisher": "[parameters('sqlImagePublisher')]",
             "offer": "[parameters('sqlImageOffer')]",
             "sku": "[parameters('sqlImageSKU')]",
-            "version": "latest"
+            "version": "12.5.44499"
           },
           "osDisk": {
             "name": "osdisk",

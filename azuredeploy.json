@@ -77,7 +77,7 @@
         "group": "Infrastructure settings",
         "description": "Change this value to your repo name if deploying from a fork"
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/sharepoint-server-farm-ha"
+      "defaultValue": "https://raw.githubusercontent.com/ecriniere10th/sharepoint-server-farm-ha/master"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
@@ -102,7 +102,7 @@
         "group": "Active Directory settings",
         "description": "The size of the AD VMs created"
       },
-      "defaultValue": "Standard_DS1"
+      "defaultValue": "Standard_DS1_V2"
     },
     "adPdcNicIPAddress": {
       "type": "string",
@@ -126,7 +126,7 @@
         "group": "SQL Server settings",
         "description": "The size of the SQL VMs created"
       },
-      "defaultValue": "Standard_DS3"
+      "defaultValue": "Standard_DS3_V2"
     },
     "witnessVMSize": {
       "type": "string",
@@ -223,7 +223,7 @@
         "group": "SharePoint Server settings",
         "description": "The size of the SP VMs Created"
       },
-      "defaultValue": "Standard_DS2"
+      "defaultValue": "Standard_DS2_V2"
     },
     "sharePointSetupUserAccountUserName": {
       "type": "string",

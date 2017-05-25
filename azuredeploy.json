@@ -8,7 +8,7 @@
         "group": "basics",
         "description": "The name of the SharePoint farm"
       },
-      "defaultValue": "spfarm"
+      "defaultValue": "spdevfarm"
     },
     "location": {
       "type": "string",
@@ -49,7 +49,7 @@
     },
     "virtualNetworkName": {
       "type": "string",
-      "defaultValue": "spfarmhaVNET",
+      "defaultValue": "spdevfarmVNET",
       "metadata": {
         "group": "Infrastructure settings",
         "description": "Name of virtual network to be created"
@@ -94,7 +94,7 @@
         "group": "Active Directory settings",
         "description": "The FQDN of the AD Domain created "
       },
-      "defaultValue": "sphafarm.local"
+      "defaultValue": "spdevfarm.local"
     },
     "adVMSize": {
       "type": "string",
@@ -325,7 +325,7 @@
       "windowsImageSKU": "2012-R2-Datacenter",
       "sqlImagePublisher": "MicrosoftSQLServer",
       "sqlImageOffer": "SQL2014SP1-WS2012R2",
-      "sqlImageSKU": "Enterprise",
+      "sqlImageSKU": "Standard",
       "spImagePublisher": "MicrosoftSharePoint",
       "spImageOffer": "MicrosoftSharePointServer",
       "spImageSKU": "2016",

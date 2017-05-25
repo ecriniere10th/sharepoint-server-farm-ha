@@ -194,7 +194,7 @@
             "publisher": "[parameters('sqlImagePublisher')]",
             "offer": "[parameters('sqlImageOffer')]",
             "sku": "[parameters('sqlImageSKU')]",
-            "version": "12.5.44499"
+            "version": "latest"
           },
           "osDisk": {
             "name": "osdisk",

@@ -126,7 +126,7 @@
         "group": "SQL Server settings",
         "description": "The size of the SQL VMs created"
       },
-      "defaultValue": "Standard_DS3_V2"
+      "defaultValue": "Standard_DS13_V2"
     },
     "witnessVMSize": {
       "type": "string",
@@ -223,7 +223,7 @@
         "group": "SharePoint Server settings",
         "description": "The size of the SP VMs Created"
       },
-      "defaultValue": "Standard_DS2_V2"
+      "defaultValue": "Standard_DS4_V2"
     },
     "sharePointSetupUserAccountUserName": {
       "type": "string",

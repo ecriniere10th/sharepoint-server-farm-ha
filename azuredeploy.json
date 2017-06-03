@@ -23,7 +23,8 @@
       "metadata": {
         "group": "Infrastructure settings",
         "description": "The name of the administrator account of the new VMs and Domain"
-      }
+      },
+      "defaultValue": "usAdministrator"
     },
     "adminPassword": {
       "type": "securestring",
@@ -37,7 +38,8 @@
       "metadata": {
         "group": "Infrastructure settings",
         "description": "The prefix of the new storage account created to store the VM disks. Different storage accounts will be created for AD, SQL, and SharePoint VMs."
-      }
+      },
+      "defaultValue": "usdevspstg"
     },
     "storageAccountType": {
       "type": "string",
@@ -102,7 +104,7 @@
         "group": "Active Directory settings",
         "description": "The size of the AD VMs created"
       },
-      "defaultValue": "Standard_DS1_V2"
+      "defaultValue": "Standard_DS2_V2"
     },
     "adPdcNicIPAddress": {
       "type": "string",
@@ -134,7 +136,7 @@
         "group": "SQL Server settings",
         "description": "The size of the witness VM created"
       },
-      "defaultValue": "Standard_DS1"
+      "defaultValue": "Standard_DS1_V2"
     },
     "sqlServerServiceAccountUserName": {
       "type": "string",
@@ -208,14 +210,16 @@
       "metadata": {
         "group": "SharePoint Server settings",
         "description": "The new or existing - depending on value of spWebIPNewOrExisting parameter - IP address name for SP Web "
-      }
+      },
+      "defaultValue": "usdevsppip"
     },
     "dnsPrefix": {
       "type": "string",
       "metadata": {
         "group": "SharePoint Server settings",
         "description": "The DNS Prefix for the Public IP Address for the Sharepoint Web Application"
-      }
+      },
+      "defaultValue": "usdevspfarm"
     },
     "spVMSize": {
       "type": "string",
